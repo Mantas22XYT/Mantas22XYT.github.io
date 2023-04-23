@@ -1,0 +1,42 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.h1top {
+    border-bottom: 2pt solid beige;
+    padding-bottom: 8pt;
+}
+
+h1 {
+    color: beige; 
+    font-family: "Kanit", sans-serif; 
+    font: 4em "Kanit"; 
+    text-align: center;
+}
+
+.navig { /* Sitas bus pritaikytas tik mygtukam esantiem div klaseje "nav" */
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font: 1.5em "Quicksand";
+    padding-top: 3pt;
+    border: 1pt;
+    border-color: aliceblue;
+}
+
+button { /* Sitas bus pritaikytas visiem mygtukam */
+    min-width: 100px;
+    min-height: 50px;
+    color: whitesmoke;
+    background-color: #404040;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border: solid black 1pt;
+}
+
+button:hover {
+    transition-duration: 0.3s;
+    background-color: #1c1c1c;
+    border: solid beige 1pt;
+}
