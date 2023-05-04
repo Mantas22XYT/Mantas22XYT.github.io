@@ -16,6 +16,14 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    margin-top: 0pt;
+    color: beige;
+    font-family: "Kanit", sans-serif;
+    font: 1em "Kanit";
+    text-align: center;
+}
+
 .navig { /* Sitas bus pritaikytas tik mygtukam esantiem div klaseje "nav" */
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -39,4 +47,20 @@ button:hover {
     transition-duration: 0.3s;
     background-color: #1c1c1c;
     border: solid beige 1pt;
+}
+
+.mainProjects h1 {
+    color: beige;
+    font-family: "Quicksand", sans-serif;
+    font: 2em "Quicksand";
+    margin: 2em
+}
+
+.mainProjects h2 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Kanit", sans-serif;
+    font: 1.5em "Kanit";
+    color: beige;
+    
 }
